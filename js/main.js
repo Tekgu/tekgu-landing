@@ -132,7 +132,7 @@ $(document).ready(function () {
 	work_item_anim.init();
 	
 	var blog_item_anim = new WOW({
-		boxClass:     'lp_blog_item',
+		boxClass:     'lp_portfolio_item',
 		animateClass: 'animated',
 		offset:       0,         
 		mobile:       true,      

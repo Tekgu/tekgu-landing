@@ -17,7 +17,7 @@ Copyright (c) 2020
 10. components
 11. responsive
 -------------------------------------------------------------------*/
-/********************************************************************************************* 
+/*********************************************************************************************
 1. body start
 *********************************************************************************************/
 :root {
@@ -37,7 +37,7 @@ Copyright (c) 2020
     color: #ffffff;
     background: var(--primary-color);
 }
-  
+
 ::selection {
     color: #ffffff;
     background: var(--primary-color);
@@ -268,11 +268,11 @@ button, input, textarea {
     margin-top: 10px;
     color: #d8d8d8;
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 1. body end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 2. banner start
 *********************************************************************************************/
 .lp_banner{
@@ -287,7 +287,7 @@ button, input, textarea {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    
+
 }
 .lp_banner_box{
     width: 400px;
@@ -435,11 +435,11 @@ button, input, textarea {
 .lp_scroll_down:hover > .lp_scroll_down_icon{
     box-shadow: 0px 0px 0px 1px #ffffff, 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 2. banner end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 3. header start
 *********************************************************************************************/
 .lp_logo{
@@ -580,11 +580,11 @@ button, input, textarea {
 .lp_menu > ul > li > a:hover::before{
     width: 120%;
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 3. header end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 4. section start
 *********************************************************************************************/
 .lp_section_heading{
@@ -647,11 +647,11 @@ button, input, textarea {
 .lp_section_dark .lp_section_heading > h3{
     color: var(--primary-color);
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 4. section end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 5. about start
 *********************************************************************************************/
 .lp_about_wrapper{
@@ -674,11 +674,11 @@ button, input, textarea {
     font-size: 16px;
     line-height: 1.6;
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 5. about end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 6. work start
 *********************************************************************************************/
 .lp_work_wrapper{
@@ -789,52 +789,52 @@ button, input, textarea {
 .lp_work_item > .lp_work_overlay > a > svg path{
     fill: var(--secondary-color);
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 6. work end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 7. blog start
 *********************************************************************************************/
-.lp_blog_wrapper{
+.lp_portfolio_wrapper{
     margin-bottom: 50px;
 }
-.lp_blog_wrapper > p {
+.lp_portfolio_wrapper > p {
     margin: 50px 0;
 }
-.lp_blog_list{
+.lp_portfolio_list{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 100px;
 }
-.lp_blog_list.lp_blog_long{
+.lp_portfolio_list.lp_blog_long{
     grid-template-columns: 100%;
     grid-gap: 50px;
     max-width: 80%;
     margin: 0 auto;
 }
-.lp_blog_list > .lp_blog_item{
+.lp_portfolio_list > .lp_portfolio_item{
     transform-origin: left;
 }
-.lp_blog_list > .lp_blog_item > .lp_blog_image{
+.lp_portfolio_list > .lp_portfolio_item > .lp_portfolio_image{
     position: relative;
     margin-bottom: 20px;
     overflow: hidden;
     transition: all 0.3s;
     display: block;
 }
-.lp_blog_list > .lp_blog_item:hover > .lp_blog_image{
+.lp_portfolio_list > .lp_portfolio_item:hover > .lp_portfolio_image{
     box-shadow: 10px 10px 0px 0px rgba(var(--primary-color-rgb), 0.5);
 }
 
-.lp_blog_list > .lp_blog_item > .lp_blog_image > img{
+.lp_portfolio_list > .lp_portfolio_item > .lp_portfolio_image > img{
     width: 100%;
     transition: all 0.3s;
 }
-.lp_blog_list > .lp_blog_item:hover > .lp_blog_image > img{
+.lp_portfolio_list > .lp_portfolio_item:hover > .lp_portfolio_image > img{
     transform: scale(1.2);
 }
-.lp_blog_list > .lp_blog_item > .lp_blog_image > .lp_blog_overlay{
+.lp_portfolio_list > .lp_portfolio_item > .lp_portfolio_image > .lp_portfolio_overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -843,7 +843,7 @@ button, input, textarea {
     display: flex;
     align-items: flex-end;
 }
-.lp_blog_author{
+.lp_portfolio_author{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -856,42 +856,42 @@ button, input, textarea {
     transform: scaleX(0) translateX(-50%);
     transform-origin: left;
 }
-.lp_blog_list > .lp_blog_item:hover .lp_blog_author{
+.lp_portfolio_list > .lp_portfolio_item:hover .lp_portfolio_author{
     opacity: 1;
     transform: scaleX(1) translateX(0);
     visibility: visible;
 }
-.lp_blog_author > .lp_blog_auther_image{
+.lp_portfolio_author > .lp_portfolio_author_image{
     width: 50px;
     flex: none;
 }
-.lp_blog_author > .lp_blog_auther_image > img{
+.lp_portfolio_author > .lp_portfolio_author_image > img{
     width: 50px;
     height: 50px;
     object-fit: contain;
     border-radius: 50%;
 }
-.lp_blog_author > .lp_blog_auther_detail{
+.lp_portfolio_author > .lp_portfolio_author_detail{
     flex: 1;
     padding-left: 15px;
 }
-.lp_blog_author > .lp_blog_auther_detail > .lp_blog_auther_name{
+.lp_portfolio_author > .lp_portfolio_author_detail > .lp_portfolio_author_name{
     font-size: 14px;
     font-weight: 500;
     color: var(--heading-color);
 }
-.lp_blog_author > .lp_blog_auther_detail > .lp_blog_auther_designation{
+.lp_portfolio_author > .lp_portfolio_author_detail > .lp_portfolio_author_designation{
     font-size: 12px;
     font-weight: 400;
     color: #808080;
 }
 
-.lp_blog_content{
+.lp_portfolio_content{
     padding-left: 60px;
     font-size: 14px;
     position: relative;
 }
-.lp_blog_content::before{
+.lp_portfolio_content::before{
     content: "";
     position: absolute;
     top: 15px;
@@ -900,17 +900,17 @@ button, input, textarea {
     height: 4px;
     background-color: var(--primary-color);
 }
-.lp_blog_content > h3{
+.lp_portfolio_content > h3{
     margin: 0;
     margin-bottom: 15px;
     font-size: 25px;
     font-weight: 500;
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 7. blog end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 8. graphics animation start
 *********************************************************************************************/
 .lp_vector_big{
@@ -958,11 +958,11 @@ button, input, textarea {
 .lp_vector_big.lp_vector_red > .lp_vector_bl{
     background-color: var(--primary-color);
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 8. graphics animation end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 9. footer start
 *********************************************************************************************/
 .lp_footer{
@@ -1014,11 +1014,11 @@ button, input, textarea {
 .lp_social > ul > li > a:hover svg path{
     fill: var(--primary-color);
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 9. footer end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 10. components start
 *********************************************************************************************/
 
@@ -1146,18 +1146,18 @@ button, input, textarea {
 }
 /* page title end */
 
-/********************************************************************************************* 
+/*********************************************************************************************
 10. components end
 *********************************************************************************************/
 
-/********************************************************************************************* 
+/*********************************************************************************************
 11. responsive start
 *********************************************************************************************/
 @media(max-width:1024px){
     .lp_work_wrapper{
         max-width: 100%;
     }
-    .lp_blog_list{
+    .lp_portfolio_list{
         grid-gap: 50px;
     }
     .lp_section_heading{
@@ -1185,7 +1185,7 @@ button, input, textarea {
         -moz-transform: skewX(25deg);
         transform: skewX(25deg);
     }
-    .lp_blog_list{
+    .lp_portfolio_list{
         grid-gap: 20px;
     }
     .lp_about_wrapper{
@@ -1221,17 +1221,17 @@ button, input, textarea {
         -moz-transform: translateY(28px);
         transform: translateY(28px);
     }
-    .lp_blog_list.lp_blog_long{
+    .lp_portfolio_list.lp_blog_long{
         max-width: 100%;
     }
 
     .lp_section{
         padding: 30px 0;
     }
-    .lp_blog_wrapper{
+    .lp_portfolio_wrapper{
         margin-bottom: 20px;
     }
-    .lp_blog_content > h3{
+    .lp_portfolio_content > h3{
         font-size: 18px;
     }
     .lp_footer .lp_footer_inner{
@@ -1244,6 +1244,6 @@ button, input, textarea {
         display: block;
     }
 }
-/********************************************************************************************* 
+/*********************************************************************************************
 11. responsive end
 *********************************************************************************************/
